@@ -1,0 +1,48 @@
+{
+  "layer": "CM0",
+  "version": "0.1.0",
+  "meta_metaclasses": [
+    {
+      "name": "Processus",
+      "type": "MetaMetaClass",
+      "description": "Transformation dans le temps",
+      "stability": "validated"
+    },
+    {
+      "name": "Structure",
+      "type": "MetaMetaClass",
+      "description": "Organisation spatiale ou conceptuelle",
+      "stability": "validated"
+    },
+    {
+      "name": "Échange",
+      "type": "MetaMetaClass",
+      "description": "Transfert d'information, matière ou énergie",
+      "stability": "validated"
+    }
+  ],
+  "meta_traits": [
+    {
+      "name": "Polarité",
+      "type": "MetaTrait",
+      "value_type": "categorical",
+      "description": "Attracteurs dans un Espace des États",
+      "arity": "N-polaire",
+      "stability": "validated"
+    },
+    {
+      "name": "Substrat",
+      "type": "MetaTrait",
+      "value_type": "categorical",
+      "description": "Support permettant la manifestation d'un principe",
+      "stability": "validated"
+    },
+    {
+      "name": "Domaine",
+      "type": "MetaTrait",
+      "value_type": "categorical",
+      "examples": ["Urbain", "Informatique", "Biologique", "Social"],
+      "stability": "validated"
+    }
+  ]
+}
