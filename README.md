@@ -25,20 +25,14 @@ Le framework TSCP s'organise en **4 couches** :
 git clone https://github.com/yourusername/transystor.git
 cd transystor
 
-# Créer environnement virtuel
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-
 # Installer les dépendances
 pip install -r requirements.txt
 ```
 
 ## 📖 Démarrage rapide
-
-```bash
-jupyter lab
-# Ouvrir notebooks/00_quickstart.ipynb
-```
+1. Choisir le répertoire racine du projet (ex: `e:\my_github\transystor`) comme répertoire courant
+2. Ouvrir une fenêtre d'interpréteur de commande (`cmd.exe`) avec la commande `_open_cmd_window.bat`
+3. utilisez la commande `_run_transystor_ide.bat` (qui ouvrira `jupyter lab` avec le notebook: `.\notebooks\00_quickstart.ipynb`)
 
 ## 📄 Licence
 

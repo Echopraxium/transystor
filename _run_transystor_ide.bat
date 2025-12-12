@@ -1,0 +1,1 @@
+start jupyter lab ./notebooks/00_quickstart.ipynb
