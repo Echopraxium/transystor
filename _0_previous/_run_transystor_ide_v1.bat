@@ -1,0 +1,1 @@
+start jupyter lab ./notebooks/02_ide_advanced.ipynb

@@ -1,0 +1,60 @@
+@prefix : <http://transystor.org/ontology/tscp#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:TSCP rdf:type owl:Ontology ;
+    rdfs:label "TSCP Ontology" ;
+    owl:versionInfo "0.2.0" .
+
+
+:Processus rdf:type :CM0_Class ;
+    rdfs:label "Processus" ;
+    :hasPosition "[1, 1, -0.5]" .
+
+:Structure rdf:type :CM0_Class ;
+    rdfs:label "Structure" ;
+    :hasPosition "[2, 2, -0.5]" .
+
+:Échange rdf:type :CM0_Class ;
+    rdfs:label "Échange" ;
+    :hasPosition "[3, 3, -0.5]" .
+
+:Observateur rdf:type :CM1_Class ;
+    rdfs:label "Observateur" ;
+    :hasPosition "[1.5, 1.5, 1.5]" .
+
+:Interface rdf:type :CM1_Class ;
+    rdfs:label "Interface" ;
+    :hasPosition "[2, 1.5, 2]" .
+
+:Langage rdf:type :CM1_Class ;
+    rdfs:label "Langage" ;
+    :hasPosition "[2, 2, 1.5]" .
+
+:Relation rdf:type :CM1_Class ;
+    rdfs:label "Relation" ;
+    :hasPosition "[2.5, 1.5, 2]" .
+
+:Réseau rdf:type :CM1_Class ;
+    rdfs:label "Réseau" ;
+    :hasPosition "[2.5, 2, 2.5]" .
+
+:Agent rdf:type :CM1_Class ;
+    rdfs:label "Agent" ;
+    :hasPosition "[2, 2.5, 2.5]" .
+
+:Distribution rdf:type :CM1_Class ;
+    rdfs:label "Distribution" ;
+    :hasPosition "[1, 2, 2.5]" .
+
+:Communication rdf:type :CM1_Class ;
+    rdfs:label "Communication" ;
+    :hasPosition "[2.5, 2.5, 2]" .
+
+:Protocole rdf:type :CM2_Class ;
+    rdfs:label "Protocole" ;
+    :hasPosition "[2, 1, 1]" .
+
+:Bus rdf:type :CM2_Class ;
+    rdfs:label "Bus" ;
+    :hasPosition "[1, 3, 3]" .
